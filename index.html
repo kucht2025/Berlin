@@ -3,315 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Berlin Barrierefrei - Ihr Begleiter für barrierefreie Navigation in Berlin">
-    <meta name="theme-color" content="#2196F3">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Berlin Barrierefrei">
-    
+    <meta name="theme-color" content="#1a237e">
+    <meta name="description" content="Barrierefreie Navigation durch Berlin - PWA für Menschen mit Mobilitätseinschränkungen">
     <title>Berlin Barrierefrei</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="data:application/json;base64,eyJuYW1lIjoiQmVybGluIEJhcnJpZXJlZnJlaSIsInNob3J0X25hbWUiOiJCZXJsaW4gQmFycmllcmVmcmVpIiwic3RhcnRfdXJsIjoiLyIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwidGhlbWVfY29sb3IiOiIjMjE5NkYzIiwiYmFja2dyb3VuZF9jb2xvciI6IiNmZmZmZmYiLCJzY29wZSI6Ii8iLCJvcmllbnRhdGlvbiI6InBvcnRyYWl0IiwiY2F0ZWdvcmllcyI6WyJ0cmF2ZWwiLCJhY2Nlc3NpYmlsaXR5Il0sImljb25zIjpbeyJzcmMiOiJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIyYVdWM1FtOTRQU0l3SURBZ01qUXdJREkwTUNJZ2VHMXNibk05SW1oMGRIQTZMeTkzZDNjdWR6TXViM0puTHpJd01EQXZjM1puSWo0OGNtVmpkQ0IzYVdSMGFEMGlNalF3SWlCb1pXbG5hSFE5SWpJME1DSWdabWxzYkQwaUl6SXhPVFpHTXlJdlBqeDBlSFJjWjJOdmJHOXlQU0lpSTJacVptWWlJR1p2Ym5RdGMybDZaVDBpTWpraUlHWnZiblF0ZDJWcFoyaDBQU0ppYjJ4a0lpQjRQU0l4TWpBaUlIazlJamc0SWNKZ2RHVjRkQzFoYm1Ob2IzSTlJbTFwWkdSc1pTSWdaRzl0YVc1aGJuUXRZbUZ6Wld4cGJtVTlJbU5sYm5SeVlXd2lQa0psY214cGJpQkNZWEp5YVdWeVpuSmxhVHd2ZEdWNGRENDhMMjF6UGp3dmMzWm5QZz09Iiwic2l6ZXMiOiIxOTJ4MTkyIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJwdXJwb3NlIjoiYW55IG1hc2thYmxlIn0seyJzcmMiOiJkYXRhOmltYWdlL3N2Zyt4bWw7YmFzZTY0LFBITjJaeUIyYVdWM1FtOTRQU0l3SURBZ05URXlJRFV4TWlJZ2VHMXNibk05SW1oMGRIQTZMeTkzZDNjdWR6TXViM0puTHpJd01EQXZjM1puSWo0OGNtVmpkQ0IzYVdSMGFEMGlOVEV5SWlCb1pXbG5hSFE5SWpVeE1pSWdabWxzYkQwaUl6SXhPVFpHTXlJdlBqeDBlSFJjWjJOdmJHOXlQU0lpSTJacVptWWlJR1p2Ym5RdGMybDZaVDBpTmpRaUlHWnZiblF0ZDJWcFoyaDBQU0ppYjJ4a0lpQjRQU0l5TlRZaUlIazlJakUzTmlKY2QyVjRkQzFoYm1Ob2IzSTlJbTFwWkdSc1pTSWdaRzl0YVc1aGJuUXRZbUZ6Wld4cGJtVTlJbU5sYm5SeVlXd2lQa0psY214cGJpQkNZWEp5YVdWeVpuSmxhVHd2ZEdWNGRENDhMMjF6UGp3dmMzWm5QZz09Iiwic2l6ZXMiOiI1MTJ4NTEyIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJwdXJwb3NlIjoiYW55IG1hc2thYmxlIn1dfQ==">
-    
-    <!-- Apple Touch Icons -->
-    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQwIDI0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgZmlsbD0iIzIxOTZGMyIvPjx0ZXh0IHg9IjEyMCIgeT0iMTIwIiBmb250LXNpemU9IjcyIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iIzAwMDAwMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9ImNlbnRyYWwiPkI8L3RleHQ+PC9zdmc+">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/icons/icon-192x192.png">
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <!-- Accessibility Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Berlin Barrierefrei">
 </head>
 <body>
     <div id="app">
-        <!-- Header -->
         <header class="app-header" role="banner">
-            <div class="container">
-                <div class="header-content">
-                    <h1 class="app-title">Berlin Barrierefrei</h1>
-                    <div class="header-actions">
-                        <button id="install-btn" class="btn btn--secondary btn--sm" aria-label="App installieren" style="display: none;">
-                            <span>📱 Installieren</span>
-                        </button>
-                        <div id="offline-indicator" class="status status--warning" style="display: none;" aria-live="polite">
-                            <span>⚠️ Offline</span>
-                        </div>
-                        <div id="online-indicator" class="status status--success" style="display: none;" aria-live="polite">
-                            <span>✅ Online</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="header-content">
+                <h1>🚇 Berlin Barrierefrei</h1>
+                <p class="tagline">Ihre barrierefreie Navigation durch Berlin</p>
+            </div>
+            <div class="accessibility-controls">
+                <button id="contrast-toggle" class="accessibility-btn" aria-label="Hohen Kontrast umschalten" tabindex="0">
+                    🔆 Kontrast
+                </button>
+                <button id="font-size-toggle" class="accessibility-btn" aria-label="Schriftgröße vergrößern" tabindex="0">
+                    🔍 Text+
+                </button>
             </div>
         </header>
 
-        <!-- Main Content -->
+        <nav class="main-nav" role="navigation" aria-label="Hauptnavigation">
+            <button class="nav-btn active" data-section="orte" aria-label="Barrierefreie Orte finden" tabindex="0">
+                📍 Orte
+            </button>
+            <button class="nav-btn" data-section="bvg" aria-label="BVG Services und Aufzugsstatus" tabindex="0">
+                🚊 BVG
+            </button>
+            <button class="nav-btn" data-section="events" aria-label="Barrierefreie Veranstaltungen" tabindex="0">
+                🎭 Events
+            </button>
+            <button class="nav-btn" data-section="notfall" aria-label="Notfallkontakte" tabindex="0">
+                🚨 Notfall
+            </button>
+        </nav>
+
         <main class="main-content" role="main">
-            <div class="container">
-                <!-- Welcome Section -->
-                <section id="welcome-section" class="welcome-section">
-                    <div class="card">
-                        <div class="card__body">
-                            <h2>Willkommen in Berlin</h2>
-                            <p>Ihre App für barrierefreie Navigation und zugängliche Orte in Berlin. Entdecken Sie die Stadt ohne Hindernisse!</p>
-                            <div class="quick-actions">
-                                <button class="btn btn--primary action-btn" data-section="places" aria-describedby="places-desc">
-                                    <span class="btn-icon">📍</span>
-                                    <span>Orte finden</span>
-                                </button>
-                                <button class="btn btn--primary action-btn" data-section="navigation" aria-describedby="nav-desc">
-                                    <span class="btn-icon">🧭</span>
-                                    <span>Navigation</span>
-                                </button>
-                                <button class="btn btn--primary action-btn" data-section="services" aria-describedby="services-desc">
-                                    <span class="btn-icon">🚌</span>
-                                    <span>Services</span>
-                                </button>
-                                <button class="btn btn--primary action-btn" data-section="profile" aria-describedby="profile-desc">
-                                    <span class="btn-icon">⚙️</span>
-                                    <span>Profil</span>
-                                </button>
-                            </div>
-                            <div class="sr-only">
-                                <div id="places-desc">Suchen Sie nach barrierefreien Orten in Berlin</div>
-                                <div id="nav-desc">Planen Sie barrierefreie Routen durch die Stadt</div>
-                                <div id="services-desc">Zugang zu BVG Services und Notfallkontakten</div>
-                                <div id="profile-desc">Verwalten Sie Ihre Barrierefreiheits-Einstellungen</div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <!-- Orte Sektion -->
+            <section id="orte-section" class="section active" aria-labelledby="orte-heading">
+                <h2 id="orte-heading">Barrierefreie Orte in Berlin</h2>
 
-                <!-- Places Section -->
-                <section id="places-section" class="content-section" style="display: none;">
-                    <div class="section-header">
-                        <h2>Barrierefreie Orte</h2>
-                        <button class="btn btn--outline back-btn" aria-label="Zurück zur Startseite">← Zurück</button>
-                    </div>
-                    
-                    <div class="search-container">
-                        <div class="form-group">
-                            <label for="search-input" class="form-label">Orte durchsuchen</label>
-                            <input type="search" id="search-input" class="form-control" placeholder="Name oder Kategorie eingeben..." aria-describedby="search-help">
-                            <div id="search-help" class="sr-only">Geben Sie einen Ortsnamen oder eine Kategorie ein um zu suchen</div>
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="category-filter" class="form-label">Kategorie filtern</label>
-                            <select id="category-filter" class="form-control">
-                                <option value="">Alle Kategorien</option>
-                                <option value="Sehenswürdigkeit">Sehenswürdigkeiten</option>
-                                <option value="Restaurant">Restaurants</option>
-                                <option value="Hotel">Hotels</option>
-                                <option value="Museum">Museen</option>
-                            </select>
-                        </div>
-                    </div>
-                    
-                    <div id="places-list" class="places-list" role="list" aria-label="Liste der barrierefreien Orte">
-                        <!-- Places will be populated by JavaScript -->
-                    </div>
-                </section>
+                <div class="filter-controls">
+                    <label for="category-filter">Kategorie:</label>
+                    <select id="category-filter" class="filter-select" tabindex="0">
+                        <option value="alle">Alle Kategorien</option>
+                        <option value="sehenswuerdigkeiten">Sehenswürdigkeiten</option>
+                        <option value="restaurants">Restaurants</option>
+                        <option value="hotels">Hotels</option>
+                        <option value="kultur">Kultur</option>
+                    </select>
 
-                <!-- Navigation Section -->
-                <section id="navigation-section" class="content-section" style="display: none;">
-                    <div class="section-header">
-                        <h2>Navigation</h2>
-                        <button class="btn btn--outline back-btn" aria-label="Zurück zur Startseite">← Zurück</button>
+                    <label for="accessibility-filter">Barrierefreiheit:</label>
+                    <select id="accessibility-filter" class="filter-select" tabindex="0">
+                        <option value="alle">Alle</option>
+                        <option value="rollstuhl">Rollstuhlgerecht</option>
+                        <option value="sehbehinderung">Sehbehinderung</option>
+                        <option value="hoerbehinderung">Hörbehinderung</option>
+                    </select>
+                </div>
+
+                <div class="locations-grid" id="locations-container" role="list">
+                    <!-- Dynamisch generierter Inhalt -->
+                </div>
+            </section>
+
+            <!-- BVG Sektion -->
+            <section id="bvg-section" class="section" aria-labelledby="bvg-heading" style="display: none;">
+                <h2 id="bvg-heading">BVG Services</h2>
+
+                <div class="service-cards">
+                    <div class="service-card">
+                        <h3>🚐 BVG Muva Shuttle</h3>
+                        <p>Kostenloser Shuttle-Service für mobilitätseingeschränkte Fahrgäste</p>
+                        <p><strong>Zeiten:</strong> Mo-Do 4:00-1:30 Uhr, Wochenende 24h</p>
+                        <button class="action-btn" onclick="window.open('tel:030-19449')" tabindex="0">
+                            📞 Jetzt anrufen
+                        </button>
                     </div>
-                    
-                    <div class="card">
-                        <div class="card__body">
-                            <h3>Barrierefreie Routenplanung</h3>
-                            <p>Planen Sie Ihre Route mit Berücksichtigung Ihrer Bedürfnisse:</p>
-                            
-                            <div class="form-group">
-                                <label for="route-from" class="form-label">Von</label>
-                                <input type="text" id="route-from" class="form-control" placeholder="Startadresse eingeben">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="route-to" class="form-label">Nach</label>
-                                <input type="text" id="route-to" class="form-control" placeholder="Zieladresse eingeben">
-                            </div>
-                            
-                            <fieldset class="accessibility-options">
-                                <legend class="form-label">Barrierefreiheits-Optionen</legend>
-                                <div class="checkbox-group">
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" id="wheelchair-route" checked>
-                                        <span class="checkmark"></span>
-                                        Rollstuhlgerecht
-                                    </label>
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" id="elevator-info">
-                                        <span class="checkmark"></span>
-                                        Aufzug-Status anzeigen
-                                    </label>
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" id="audio-signals">
-                                        <span class="checkmark"></span>
-                                        Akustische Signale
-                                    </label>
-                                </div>
-                            </fieldset>
-                            
-                            <button class="btn btn--primary btn--full-width" id="plan-route" aria-describedby="route-help">
-                                Route planen
+
+                    <div class="service-card">
+                        <h3>👥 Begleitservice</h3>
+                        <p>Persönliche Begleitung durch geschultes Personal</p>
+                        <p><strong>Zeiten:</strong> Täglich 7:00-22:00 Uhr</p>
+                        <p><strong>Anmeldung:</strong> Mindestens einen Tag im Voraus</p>
+                        <button class="action-btn" onclick="window.open('tel:030-19449')" tabindex="0">
+                            📞 Buchen
+                        </button>
+                    </div>
+                </div>
+
+                <div class="elevator-status">
+                    <h3>🛗 Aktuelle Aufzugsstörungen</h3>
+                    <div id="elevator-status-container">
+                        <p>Lade aktuelle Daten...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Events Sektion -->
+            <section id="events-section" class="section" aria-labelledby="events-heading" style="display: none;">
+                <h2 id="events-heading">Barrierefreie Veranstaltungen</h2>
+
+                <div class="events-grid" id="events-container">
+                    <!-- Events werden hier eingefügt -->
+                </div>
+            </section>
+
+            <!-- Notfall Sektion -->
+            <section id="notfall-section" class="section" aria-labelledby="notfall-heading" style="display: none;">
+                <h2 id="notfall-heading">Notfallkontakte</h2>
+
+                <div class="emergency-contacts">
+                    <div class="contact-card urgent">
+                        <h3>🚨 Notfälle</h3>
+                        <div class="contact-buttons">
+                            <button class="emergency-btn" onclick="window.open('tel:110')" tabindex="0">
+                                🚔 Polizei 110
                             </button>
-                            <div id="route-help" class="sr-only">Plant eine barrierefreie Route basierend auf Ihren Einstellungen</div>
-                            
-                            <div id="route-results" class="route-results" style="display: none;" aria-live="polite">
-                                <h4>Routenergebnis</h4>
-                                <p>Eine barrierefreie Route wurde für Sie geplant. Alle gewählten Optionen wurden berücksichtigt.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Services Section -->
-                <section id="services-section" class="content-section" style="display: none;">
-                    <div class="section-header">
-                        <h2>Services</h2>
-                        <button class="btn btn--outline back-btn" aria-label="Zurück zur Startseite">← Zurück</button>
-                    </div>
-                    
-                    <div class="services-grid">
-                        <div class="card">
-                            <div class="card__body">
-                                <h3>🚌 BVG Muva Shuttle</h3>
-                                <p>Kostenloser Shuttle-Service zwischen nicht barrierefreien Stationen</p>
-                                <div class="service-details">
-                                    <p><strong>Telefon:</strong> <a href="tel:03019449">030 19449</a></p>
-                                    <p><strong>Zeiten:</strong> Mo-Do 4:00-1:30, Fr-So 24h</p>
-                                    <p><strong>Buchung:</strong> App oder Telefon</p>
-                                </div>
-                                <button class="btn btn--secondary btn--full-width" aria-label="BVG Muva Service anrufen">
-                                    📞 Jetzt anrufen
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card__body">
-                                <h3>👥 BVG Begleitservice</h3>
-                                <p>Persönliche Begleitung durch geschultes Personal</p>
-                                <div class="service-details">
-                                    <p><strong>Telefon:</strong> <a href="tel:03019449">030 19449</a></p>
-                                    <p><strong>Zeiten:</strong> Täglich 7:00-22:00</p>
-                                    <p><strong>Buchung:</strong> Mindestens 1 Tag im Voraus</p>
-                                </div>
-                                <button class="btn btn--secondary btn--full-width" aria-label="BVG Begleitservice anrufen">
-                                    📞 Jetzt anrufen
-                                </button>
-                            </div>
-                        </div>
-                        
-                        <div class="card">
-                            <div class="card__body">
-                                <h3>🚕 Rollstuhl-Taxi</h3>
-                                <p>Speziell ausgestattete Taxis für Rollstuhlfahrer</p>
-                                <div class="service-details">
-                                    <p><strong>Telefon:</strong> <a href="tel:03044332211">030 44 33 22 11</a></p>
-                                    <p><strong>Zeiten:</strong> 24/7</p>
-                                    <p><strong>Buchung:</strong> Telefonisch</p>
-                                </div>
-                                <button class="btn btn--secondary btn--full-width" aria-label="Rollstuhl-Taxi anrufen">
-                                    📞 Jetzt anrufen
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="emergency-section">
-                        <h3>🚨 Notfallkontakte</h3>
-                        <div class="emergency-grid">
-                            <a href="tel:110" class="emergency-btn" aria-label="Polizei anrufen">
-                                <span class="emergency-icon">🚔</span>
-                                <span class="emergency-text">
-                                    <strong>Polizei</strong><br>
-                                    110
-                                </span>
-                            </a>
-                            <a href="tel:112" class="emergency-btn" aria-label="Feuerwehr und Rettungsdienst anrufen">
-                                <span class="emergency-icon">🚑</span>
-                                <span class="emergency-text">
-                                    <strong>Feuerwehr/Rettung</strong><br>
-                                    112
-                                </span>
-                            </a>
-                            <a href="tel:03019449" class="emergency-btn" aria-label="BVG Service-Hotline anrufen">
-                                <span class="emergency-icon">📞</span>
-                                <span class="emergency-text">
-                                    <strong>BVG Service</strong><br>
-                                    030 19449
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Profile Section -->
-                <section id="profile-section" class="content-section" style="display: none;">
-                    <div class="section-header">
-                        <h2>Mein Profil</h2>
-                        <button class="btn btn--outline back-btn" aria-label="Zurück zur Startseite">← Zurück</button>
-                    </div>
-                    
-                    <div class="card">
-                        <div class="card__body">
-                            <h3>Barrierefreiheits-Einstellungen</h3>
-                            
-                            <fieldset class="profile-settings">
-                                <legend class="form-label">Meine Bedürfnisse</legend>
-                                <div class="checkbox-group">
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" id="need-wheelchair" data-setting="wheelchair">
-                                        <span class="checkmark"></span>
-                                        Rollstuhlnutzer
-                                    </label>
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" id="need-visual" data-setting="visual">
-                                        <span class="checkmark"></span>
-                                        Sehbehinderung
-                                    </label>
-                                    <label class="checkbox-label">
-                                        <input type="checkbox" id="need-hearing" data-setting="hearing">
-                                        <span class="checkmark"></span>
-                                        Hörbehinderung
-                                    </label>
-                                </div>
-                            </fieldset>
-                            
-                            <div class="form-group">
-                                <label for="language-select" class="form-label">Sprache</label>
-                                <select id="language-select" class="form-control">
-                                    <option value="de">Deutsch</option>
-                                    <option value="en">English</option>
-                                </select>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="theme-select" class="form-label">Design</label>
-                                <select id="theme-select" class="form-control">
-                                    <option value="auto">Automatisch</option>
-                                    <option value="light">Hell</option>
-                                    <option value="dark">Dunkel</option>
-                                </select>
-                            </div>
-                            
-                            <button class="btn btn--primary btn--full-width" id="save-settings">
-                                Einstellungen speichern
+                            <button class="emergency-btn" onclick="window.open('tel:112')" tabindex="0">
+                                🚑 Feuerwehr 112
                             </button>
                         </div>
                     </div>
-                    
-                    <div class="card mt-8">
-                        <div class="card__body">
-                            <h3>Favoriten</h3>
-                            <div id="favorites-list">
-                                <p class="text-secondary">Noch keine Favoriten gespeichert.</p>
-                            </div>
-                        </div>
+
+                    <div class="contact-card">
+                        <h3>🚊 BVG Service</h3>
+                        <p>Rund um die Uhr erreichbar</p>
+                        <button class="contact-btn" onclick="window.open('tel:030-19449')" tabindex="0">
+                            📞 030 19449
+                        </button>
                     </div>
-                </section>
-            </div>
+
+                    <div class="contact-card">
+                        <h3>🚖 Rollstuhl-Taxi</h3>
+                        <p>Barrierefreie Taxifahrten</p>
+                        <button class="contact-btn" onclick="window.open('tel:030-44332211')" tabindex="0">
+                            📞 030 44 33 22 11
+                        </button>
+                    </div>
+                </div>
+            </section>
         </main>
+
+        <footer class="app-footer">
+            <div class="offline-indicator" id="offline-indicator">
+                <span id="connection-status">🟢 Online</span>
+            </div>
+            <p>&copy; 2025 Berlin Barrierefrei PWA | Version 1.0</p>
+        </footer>
     </div>
 
-    <script src="app.js"></script>
+    <script src="./scripts/app.js"></script>
 </body>
 </html>
