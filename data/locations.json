@@ -1,0 +1,303 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "name": "Reichstagsgebäude",
+      "description": "Vollständig barrierefrei mit Rollstuhlverleih und taktilen Modellen. Kostenlose Führungen mit Gebärdensprache-Dolmetscher verfügbar.",
+      "category": "sehenswuerdigkeiten",
+      "address": "Platz der Republik 1, 11011 Berlin",
+      "phone": "030 22732152",
+      "website": "https://www.bundestag.de/besuche/architektur/reichstag",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "partial",
+        "hearing": "full"
+      },
+      "features": [
+        "Rollstuhlverleih",
+        "Taktile Modelle",
+        "Gebärdensprache-Führungen",
+        "Barrierefreie Toiletten",
+        "Aufzug zur Kuppel"
+      ],
+      "coordinates": {
+        "lat": 52.5186,
+        "lng": 13.3763
+      }
+    },
+    {
+      "id": 2,
+      "name": "Restaurant Alvis",
+      "description": "Barrierefrei zertifiziert mit stufenlosem Zugang und rollstuhlgerechten Toiletten.",
+      "category": "restaurants",
+      "address": "Große Hamburger Straße 25, 10115 Berlin",
+      "phone": "030 28045800",
+      "website": "https://alvis-restaurant.de",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "none",
+        "hearing": "partial"
+      },
+      "features": [
+        "Stufenloser Zugang",
+        "Rollstuhlgerechte Toiletten",
+        "Speisekarten in Braille",
+        "Vergrößerte Speisekarten"
+      ],
+      "coordinates": {
+        "lat": 52.52,
+        "lng": 13.3859
+      }
+    },
+    {
+      "id": 3,
+      "name": "Futurium",
+      "description": "Das Haus der Zukünfte mit vollständiger Barrierefreiheit, taktilen Orientierungsplänen und Gebärdensprache-Videos.",
+      "category": "kultur",
+      "address": "Alexanderufer 2, 10117 Berlin",
+      "phone": "030 40818820",
+      "website": "https://futurium.de/de/barrierefreiheit",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "full",
+        "hearing": "full"
+      },
+      "features": [
+        "Taktile Orientierungspläne",
+        "Gebärdensprache-Videos",
+        "Audiodeskription",
+        "Induktionsschleife",
+        "Rollstuhlgerechte Parkplätze"
+      ],
+      "coordinates": {
+        "lat": 52.5211,
+        "lng": 13.3832
+      }
+    },
+    {
+      "id": 4,
+      "name": "Anne Frank Zentrum",
+      "description": "Mit Audiodeskription, Führungen für blinde Besucher und Videos in Deutscher Gebärdensprache.",
+      "category": "kultur",
+      "address": "Rosenthaler Straße 39, 10178 Berlin",
+      "phone": "030 28887800",
+      "website": "https://www.annefrank.de",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "full",
+        "hearing": "full"
+      },
+      "features": [
+        "Audiodeskription",
+        "Führungen für Blinde",
+        "Deutsche Gebärdensprache",
+        "Taktile Ausstellungselemente",
+        "Barrierefreier Eingang"
+      ],
+      "coordinates": {
+        "lat": 52.5259,
+        "lng": 13.4015
+      }
+    },
+    {
+      "id": 5,
+      "name": "Friedrichstadt-Palast",
+      "description": "Bietet vier Rollstuhlplätze, eine VIP-Reihe für Rollstuhlfahrer und eine Induktionsschleife für Hörgeschädigte.",
+      "category": "kultur",
+      "address": "Friedrichstraße 107, 10117 Berlin",
+      "phone": "030 23262646",
+      "website": "https://www.friedrichstadt-palast.de",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "partial",
+        "hearing": "full"
+      },
+      "features": [
+        "4 Rollstuhlplätze",
+        "VIP-Reihe für Rollstuhlfahrer",
+        "Induktionsschleife",
+        "Servicepersonal ab 17 Uhr",
+        "Barrierefreie Garderobe"
+      ],
+      "coordinates": {
+        "lat": 52.5213,
+        "lng": 13.3888
+      }
+    },
+    {
+      "id": 6,
+      "name": "relexa hotel Berlin",
+      "description": "Mit zwei speziell eingerichteten rollstuhlgerechten Zimmern, behindertengerechten Toiletten und Rampen.",
+      "category": "hotels",
+      "address": "Friedrichstraße 105, 10117 Berlin",
+      "phone": "030 238270",
+      "website": "https://www.relexa-hotel.de/berlin",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "partial",
+        "hearing": "partial"
+      },
+      "features": [
+        "2 rollstuhlgerechte Zimmer",
+        "Behindertengerechte Toiletten",
+        "Rampen am Eingang",
+        "Aufzug zu allen Etagen",
+        "24h Rezeption"
+      ],
+      "coordinates": {
+        "lat": 52.5216,
+        "lng": 13.3882
+      }
+    },
+    {
+      "id": 7,
+      "name": "Restaurant Amera",
+      "description": "Vollständig rollstuhlgerecht mit barrierefreien Toiletten und Parkplätzen im Bezirk Reinickendorf.",
+      "category": "restaurants",
+      "address": "Residenzstraße 90, 13409 Berlin",
+      "phone": "030 4954321",
+      "website": "https://restaurant-amera.de",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "none",
+        "hearing": "none"
+      },
+      "features": [
+        "Rollstuhlgerechter Eingang",
+        "Barrierefreie Toiletten",
+        "Rollstuhlgerechte Parkplätze",
+        "Breite Gänge",
+        "Niedrige Theke"
+      ],
+      "coordinates": {
+        "lat": 52.5759,
+        "lng": 13.3456
+      }
+    },
+    {
+      "id": 8,
+      "name": "Café Sterntal",
+      "description": "Innovatives Inklusionscafé mit barrierefreier Website und inklusiven Arbeitsplätzen.",
+      "category": "restaurants",
+      "address": "Kastanienallee 54, 10119 Berlin",
+      "phone": "030 44037892",
+      "website": "https://cafe-sterntal.de",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "partial",
+        "hearing": "partial"
+      },
+      "features": [
+        "Inklusive Arbeitsplätze",
+        "Barrierefreie Website",
+        "Braille-Speisekarten",
+        "Rollstuhlgerechter Zugang",
+        "Begleitpersonen willkommen"
+      ],
+      "coordinates": {
+        "lat": 52.5289,
+        "lng": 13.4019
+      }
+    },
+    {
+      "id": 9,
+      "name": "Waldorf Astoria Berlin",
+      "description": "Luxushotel mit rollstuhlgerechten Zimmern und umfassender Barrierefreiheit nach 'Reisen für Alle' zertifiziert.",
+      "category": "hotels",
+      "address": "Hardenbergstraße 28, 10623 Berlin",
+      "phone": "030 8140000",
+      "website": "https://www.waldorfastoriaberlin.com",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "full",
+        "hearing": "full"
+      },
+      "features": [
+        "Rollstuhlgerechte Zimmer",
+        "Barrierefreies Spa",
+        "Induktionsschleifen",
+        "Braille-Beschilderung",
+        "24h Concierge"
+      ],
+      "coordinates": {
+        "lat": 52.5058,
+        "lng": 13.3342
+      }
+    },
+    {
+      "id": 10,
+      "name": "East Side Gallery",
+      "description": "Neuer barrierefreier Zugang mit einer drei Meter breiten und 25 Meter langen Rampe zur berühmten Mauer-Galerie.",
+      "category": "sehenswuerdigkeiten",
+      "address": "Mühlenstraße 3-100, 10243 Berlin",
+      "phone": "030 2512159",
+      "website": "https://www.eastsidegallery-berlin.de",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "partial",
+        "hearing": "none"
+      },
+      "features": [
+        "3m breite Rampe",
+        "25m lange Rampe",
+        "Rollstuhlgerechte Wege",
+        "Informationstafeln",
+        "Sitzgelegenheiten"
+      ],
+      "coordinates": {
+        "lat": 52.505,
+        "lng": 13.4397
+      }
+    },
+    {
+      "id": 11,
+      "name": "Humboldt Forum",
+      "description": "Vollständiges taktiles Bodenleitsystem und gilt als Modell für barrierefreie Museumsgestaltung.",
+      "category": "kultur",
+      "address": "Schloßplatz, 10178 Berlin",
+      "phone": "030 265950",
+      "website": "https://www.humboldtforum.org",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "full",
+        "hearing": "full"
+      },
+      "features": [
+        "Taktiles Bodenleitsystem",
+        "Tastführungen",
+        "Audiodeskription",
+        "Gebärdensprache-Führungen",
+        "Barrierefreie Toiletten"
+      ],
+      "coordinates": {
+        "lat": 52.517,
+        "lng": 13.4013
+      }
+    },
+    {
+      "id": 12,
+      "name": "Benedict Berlin",
+      "description": "Restaurant in der Uhlandstraße mit stufenlosem Zugang und nach 'Reisen für Alle' System geprüft.",
+      "category": "restaurants",
+      "address": "Uhlandstraße 49, 10719 Berlin",
+      "phone": "030 8940040",
+      "website": "https://benedict.de/berlin",
+      "accessibility": {
+        "wheelchair": "full",
+        "visual": "none",
+        "hearing": "partial"
+      },
+      "features": [
+        "Stufenloser Zugang",
+        "Rollstuhlgerechte Toiletten",
+        "Breite Gänge",
+        "Angepasste Tischhöhen",
+        "Hilfestellung durch Personal"
+      ],
+      "coordinates": {
+        "lat": 52.4992,
+        "lng": 13.3328
+      }
+    }
+  ]
+}

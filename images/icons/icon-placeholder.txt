@@ -1,0 +1,10 @@
+<!-- Icon Placeholder -->
+<!-- Ersetzen Sie diese Dateien durch echte PNG-Icons:
+     - icon-192x192.png (192x192 Pixel)
+     - icon-512x512.png (512x512 Pixel)
+
+     Kostenlose Icons verfügbar bei:
+     - icons8.com
+     - flaticon.com
+     - iconmonstr.com
+-->
